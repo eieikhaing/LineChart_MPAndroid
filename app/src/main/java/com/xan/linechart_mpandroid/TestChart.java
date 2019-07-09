@@ -34,7 +34,7 @@ public class TestChart extends AppCompatActivity {
         mChart.setDragEnabled(true);
         mChart.getAxisRight().setEnabled(false);
         YAxis yAxis = mChart.getAxisLeft();
-        yAxis.setAxisMaximum(pricesAt2PM[0]+50000);
+        yAxis.setAxisMaximum(1200000);
         yAxis.setAxisMinimum(900000);
         //mChart.getDescription().setText("Today price");
        // mChart.getDescription().setPosition(100f,20f);
